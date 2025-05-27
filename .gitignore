@@ -1,0 +1,26 @@
+#Eclipse/CCS metadata
+.settings/
+.project
+.cproject
+.metadata/
+RemoteSystemsTempFiles/
+
+# CCS build output
+Debug/
+Release/
+*.hex
+*.out
+*.map
+*.asm
+*.bin
+*.lst
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Backup or temporary files
+*.log
+*.bak
+*.swp
+
