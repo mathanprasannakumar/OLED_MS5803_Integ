@@ -12,6 +12,7 @@ void timer_delay_loop(unsigned int duration)
         while (!(TACTL & TAIFG));
         // Clear the flag
         TACTL &= ~TAIFG;
+
     }
 }
 

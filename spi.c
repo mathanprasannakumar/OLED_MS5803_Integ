@@ -6,7 +6,7 @@ void spi_init(void) {
     // SPI configuration for DISPLAY - USART0
     P3DIR |= BIT0 | BIT1 | BIT3 | BIT6 | BIT7; // CS, MOSI, CLK, RES, DC as output
     P3SEL |= BIT1 | BIT2 | BIT3;               // Enable SPI function on MOSI, MISO, CLK
-    P3DIR &= ~BIT2;                            // MISO as input
+//    P3DIR &= ~BIT2;                            // MISO as input
 
     // Pull default values high
     P3OUT |= BIT0 | BIT6 | BIT7;
